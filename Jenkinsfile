@@ -32,10 +32,10 @@ pipeline {
 	}
 	post {
 		success {
-			echo 'job was built successfully'
+			echo 'job was built successfully - update sent by webhook'
 		}
 		failure {
-			echo 'job was not build..it was failed'
+			echo 'job was not build..it was failed - update sent by webhook'
 		}
 	}
 }
